@@ -1,0 +1,64 @@
+# 编译生成文件和对象文件
+*.o
+*.ko
+*.obj
+*.lo
+*.a
+*.la
+*.so
+*.dll
+*.exe
+*.out
+*.app
+
+# 预编译头文件
+*.gch
+*.pch
+
+# 构建目录和CMake临时文件
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+*.cmake
+
+# IDE和编辑器配置
+.vscode/
+.idea/
+.vs/
+*.sln
+*.vcxproj*
+*.user
+*.suo
+*.ncb
+*.opendb
+
+# Makefile生成文件
+Makefile
+Makefile.in
+*.d
+
+# 测试覆盖率报告
+*.gcno
+*.gcda
+*.lcov
+
+# 依赖目录
+deps/
+third_party/
+
+# 包文件与日志
+*.tar
+*.gz
+*.zip
+*.7z
+*.log
+*.stackdump
+
+# 系统文件
+.DS_Store
+Thumbs.db
